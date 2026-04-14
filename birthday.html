@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Happy Birthday My Love ❤️</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      color: white;
+      text-align: center;
+      background: black;
+    }
+
+    .hero {
+      height: 100vh;
+      background: url('photo.jpg.jpeg') no-repeat center/cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .overlay {
+      /* background: rgba(246, 241, 241, 0.6); */
+      padding: 20px;
+      border-radius: 15px;
+    }
+
+    button {
+      padding: 10px 20px;
+      background: pink;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    /* GALLERY */
+    .gallery {
+      padding: 40px;
+      background: black;
+    }
+
+    .gallery img {
+      width: 90%;
+      max-width: 300px;
+      margin: 10px;
+      border-radius: 15px;
+    }
+
+    /* LOVE TEXT */
+    .love {
+      padding: 40px;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- FIRST PAGE -->
+<div class="hero">
+  <div class="overlay">
+    <h1>Advance Happy 22nd Birthday 💖</h1>
+    <p id="msg">Click the button for a surprise 🎁</p>
+    <button onclick="showLove()">Click Me ❤️</button>
+  </div>
+</div>
+
+<!-- GALLERY -->
+<div class="gallery">
+  <h2>Our Memories 📸</h2>
+  <img src="photo.jpg.jpeg">
+  <img src="WhatsApp Image 2026-01-11 at 10.17.55 PM.jpeg">
+  <img src="WhatsApp Image 2026-01-11 at 12.23.37 PM.jpeg">
+</div>
+
+<!-- LOVE MESSAGE -->
+<div class="love">
+  <h2>For You 💕</h2>
+  <p>
+    You are not just my love, you are my life 💖 <br><br>
+    In every universe, I will choose you again ❤️ <br><br>
+    Your smile is my favorite place 💫 <br><br>
+    I found my home in you 🏡❤️
+  </p>
+</div>
+
+<script>
+function showLove() {
+  document.getElementById("msg").innerText =
+  "From the moment you came into my life, everything became more beautiful 💖. You are my happiness, my peace, my everything ❤️. I love you forever 💫";
+}
+</script>
+
+</body>
+</html>
